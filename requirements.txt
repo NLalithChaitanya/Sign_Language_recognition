@@ -1,0 +1,12 @@
+torch==2.1.1
+torchvision==0.16.1
+numpy==1.26.0
+pandas==2.1.1
+matplotlib==3.8.0
+Pillow==10.1.0
+opencv-python==4.8.0.74
+
+## new 
+Flask==1.1.1
+autocomplete==0.0.104
+imutils==0.5.3
