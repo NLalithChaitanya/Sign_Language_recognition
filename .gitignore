@@ -1,0 +1,4 @@
+Sign_mnist_images/
+*.pth
+__pycache__/
+.ipynb_checkpoints/
