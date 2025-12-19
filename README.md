@@ -92,9 +92,11 @@ Generated data such as images, datasets, and trained models are intentionally ex
 ## Setup and Usage
 
 ### Clone the repository
+
 ```bash
 git clone https://github.com/NLalithChaitanya/Sign_Language_recognition.git
 cd Sign_Language_recognition
+
 
 **Create and activate environment**
 
@@ -105,9 +107,42 @@ pip install -r requirements.txt
 Run real-time inference
 python main.py
 
+Training, Testing, Experiments and Visualizations
 
-Training , testing , Experiments and Visulizations
+All experiments, training, testing, and visualizations are available in:
+
 sign_lang.ipynb
+
+
+⚠️ **IMPORTANT RULES (remember this forever)**  
+- Every ``` must have a matching closing ```  
+- Headings must start with `#`, `##`, or `###`  
+- Do **not** put `**bold**` inside code blocks  
+
+---
+
+## ✅ What it will look like after this
+
+- Clean section titles
+- Proper code boxes
+- No mixed formatting
+- Exactly like professional GitHub repos
+
+---
+
+## 🔧 Final steps
+
+1. Edit `README.md`
+2. Replace that section with the fixed version above
+3. Save
+4. Commit and push:
+
+```bash
+git add README.md
+git commit -m "Fix README markdown formatting for setup and usage"
+git push origin main
+
+
 ## Limitations
 
 - The system supports **only static ASL signs** and does not handle dynamic gestures.
