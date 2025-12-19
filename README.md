@@ -73,7 +73,7 @@ The model is trained on clean, centered dataset images. Performance may degrade 
 
 ---
 
-**Project Structure**
+## Project Structure
 
 Sign_Language_recognition/
 │
@@ -83,65 +83,6 @@ Sign_Language_recognition/
 ├── classes.json # Class labels
 ├── .gitignore # Ignored datasets, images, models
 └── README.md # Project documentation
-
-
-Generated data such as images, datasets, and trained models are intentionally excluded from version control.
-
----
-
-## Setup and Usage
-
-### Clone the repository
-
-```bash
-git clone https://github.com/NLalithChaitanya/Sign_Language_recognition.git
-cd Sign_Language_recognition
-
-
-**Create and activate environment**
-
-conda create -n slr python=3.9
-conda activate slr
-pip install -r requirements.txt
-
-Run real-time inference
-python main.py
-
-Training, Testing, Experiments and Visualizations
-
-All experiments, training, testing, and visualizations are available in:
-
-sign_lang.ipynb
-
-
-⚠️ **IMPORTANT RULES (remember this forever)**  
-- Every ``` must have a matching closing ```  
-- Headings must start with `#`, `##`, or `###`  
-- Do **not** put `**bold**` inside code blocks  
-
----
-
-## ✅ What it will look like after this
-
-- Clean section titles
-- Proper code boxes
-- No mixed formatting
-- Exactly like professional GitHub repos
-
----
-
-## 🔧 Final steps
-
-1. Edit `README.md`
-2. Replace that section with the fixed version above
-3. Save
-4. Commit and push:
-
-```bash
-git add README.md
-git commit -m "Fix README markdown formatting for setup and usage"
-git push origin main
-
 
 ## Limitations
 
@@ -160,3 +101,32 @@ git push origin main
 - Apply **data augmentation** and fine-tune the model on real-world webcam data to reduce domain shift.
 - Optimize the pipeline for real-time performance and deploy it as a **web or mobile application**.
 - Explore **continuous sign sequence recognition** for full sign language translation.
+
+Generated data such as images, datasets, and trained models are intentionally excluded from version control.
+
+---
+
+## Setup and Usage
+
+### Clone the repository
+
+```bash
+git clone https://github.com/NLalithChaitanya/Sign_Language_recognition.git
+cd Sign_Language_recognition
+
+Create and activate environment
+
+bash
+conda create -n slr python=3.9
+conda activate slr
+pip install -r requirements.txt
+
+Run real-time inference
+
+bash
+python main.py
+
+Training, Testing, Experiments and Visualizations
+All experiments, training, testing, and visualizations are available in:
+
+sign_lang.ipynb
